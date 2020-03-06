@@ -1,0 +1,30 @@
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    padding-top: 30px;
+}
+
+.searchBar h1{
+    margin-left: 35%;
+    color: white;
+}
+
+.searchBar input{
+    margin-left: 20px;
+    margin-right:20px;
+    width: 300px;
+}
+
+
+.searchBar button{
+    width:100px;
+    background-color: #A70042;
+    color:white;
+    border: none;
+}
+
+.searchBar button:hover {
+    background-color: #db002c;
+    cursor: grab;
+}
